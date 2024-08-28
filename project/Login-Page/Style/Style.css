@@ -1,0 +1,118 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #080710;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    height: 100vh;
+
+
+}
+.container{
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    
+
+}
+.circle{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: orangered;
+    z-index: 2;
+    
+
+}
+#c-1{
+    background-color: #039BE5;
+    top: 10px;
+    left: 470px;
+
+}
+#c-2{
+    background-color: #F4511E;
+    bottom: -80px;
+    right: 476px;
+}
+.login-form{
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    font-weight: 300; 
+    color: #fff;
+    width: 400px;
+
+    background-color: rgba(255, 255, 255, 0.13);
+    border: 2px solid rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    /* backdrop-filter: blur(20px) saturate(200%);
+    -webkit-backdrop-filter: blur(20px) saturate(200%); */
+    padding: 30px 35px;
+    margin-top: 70px;
+    z-index: 3;
+}
+.login-header{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 22px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+h1{
+    margin: 0px auto;
+    text-align: center;
+}
+.login-input-label{
+    color: #fff;
+    font-size: 16px;
+}
+.login-input{
+    margin-bottom: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    margin:  10px  auto 28px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 10px 0;
+    background-color: rgba(255, 255, 255, 0.07);
+    outline: none;
+}
+.login-input:focus{
+    border: none;
+    outline: none;
+    border-spacing: 0px;
+}
+.login-button{
+    
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    color: #080710;
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    margin: 20px auto 5px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+}
+/* App Fonts */

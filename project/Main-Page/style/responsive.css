@@ -1,0 +1,39 @@
+
+/* Project Responsive */
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .header__btn{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .nav__menu{
+        display: none;
+    }
+    .header__bottem__contant__right{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+    .header__bottem__contant{
+        align-items: center;{
+
+    }
+}
